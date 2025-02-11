@@ -11,7 +11,13 @@
 // console.log(sentence.split(' '));
 // console.log(sentence.split('a'));
 
+// const friends = "shanto,sharker,irfan,rasel";
 
-const friends = 'shanto,sharker,irfan,rasel';
+// console.log(friends.split(","));
 
-console.log(friends.split(','));
+//use of join() function >>>>>>>>>>>>>>>>>
+
+const realFriend = ["shanto", "sharker", "irfan", "rasel"];
+console.log(realFriend.join(''));
+console.log(realFriend.join('|'));
+console.log(realFriend.join('-'));
